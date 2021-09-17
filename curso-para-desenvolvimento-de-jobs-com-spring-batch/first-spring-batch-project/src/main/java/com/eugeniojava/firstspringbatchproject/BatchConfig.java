@@ -9,8 +9,8 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@EnableBatchProcessing
 @Configuration
+@EnableBatchProcessing
 public class BatchConfig {
 
     private final JobBuilderFactory jobBuilderFactory;
